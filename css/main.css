@@ -1,0 +1,21 @@
+body {
+    background-color: red;
+}
+
+@media all and (color) and (max-width: 1080px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media all and (color) and (max-width: 550px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media all and (color) and (max-width: 400px) {
+    body {
+        background-color: grey;
+    }
+}
