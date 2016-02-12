@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+}
+
+@media all and (color) and (min-width: 675px) {
+    body {
+        background-color: purple;
+    }
+}
+
+@media all and (color) and (min-width: 999px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media all and (color) and (min-width: 1280px) {
+    body {
+        background-color: blue;
+    }
+}
